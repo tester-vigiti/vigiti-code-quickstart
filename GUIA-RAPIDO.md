@@ -58,6 +58,8 @@ Agora, vamos instruir o GitHub a executar a análise do VIGITI Code automaticame
     
               # Define que o workflow irá falhar se encontrar violações de nível 'high' ou 'critical'.
               fail-on: 'high'
+
+              vigiti-api-url: 'https://vigiti-code.onrender.com'
     
               # Define as linguagens a serem analisadas no projeto.
               languages: 'js,ts,python,java'
