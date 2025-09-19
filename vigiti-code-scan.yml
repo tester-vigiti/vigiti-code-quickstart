@@ -42,6 +42,8 @@ jobs:
           # Nível de severidade que fará o build falhar.
           fail-on: 'high'
 
+          vigiti-api-url: 'https://vigiti-code.onrender.com'
+
           # As linguagens que devem ser analisadas.
           languages: 'js,ts,python,java'
 
