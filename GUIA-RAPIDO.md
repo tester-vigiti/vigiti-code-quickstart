@@ -23,7 +23,7 @@ Agora, vamos instruir o GitHub a executar a análise do VIGITI Code automaticame
 3.  Cole o conteúdo abaixo, exatamente como está, dentro do arquivo `vigiti-code-scan.yml`:
 
     ```yaml
-    # Nome do fluxo de trabalho que aparecerá na aba "Actions" do GitHub.
+    # Nome do fluxo de trabalho que aparecerá na aba "Actions" do GitHub..
     name: 'VIGITI Code Analysis'
     
     # Define que esta análise deve rodar em cada push ou pull request para a branch main.
